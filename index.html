@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой простой сайт</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            width: 100%;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            padding: 20px;
+            background: white;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        button {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Добро пожаловать на мой сайт!</h1>
+        <p>Создано с помощью ИИ за 1 минуту</p>
+    </header>
+
+    <div class="container">
+        <h2>Обо мне</h2>
+        <p>Привет! Это мой первый проект. Здесь я буду делиться своими мыслями, проектами и планами на будущее.</p>
+        
+        <h2>Мои навыки</h2>
+        <ul>
+            <li>Изучение веб-разработки</li>
+            <li>Креативное мышление</li>
+            <li>Работа с технологиями</li>
+        </ul>
+
+        <button onclick="alert('Привет! Рад, что ты заглянул.')">Нажми на меня</button>
+    </div>
+
+</body>
+</html>
